@@ -11,13 +11,9 @@
                         </div>
                         <form id="form" method="post" action="/login">
                           
-                            <% if (messages.msg=='ok'){ %>
+                         
 
-                             <div class="alert alert-success text-center">
-                            Login berhasil
-                             </div>
-
-                            <% } else if (messages.msg=='fail') { %>
+                            <% if (messages.msg=='fail') { %>
 
                             <div class="alert alert-danger text-center">
                              Username atau Password anda salah
